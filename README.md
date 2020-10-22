@@ -16,10 +16,10 @@
   * [Technologies](#technologies)
   
 ## <a name="introduction"></a> Introduction
-This project is to analyze the district-wide standardized test results using python and pandas to help the school board and mayor make strategic decisions regarding future school budgets and prioriteis. The dataset will include every student's math and reading scores, as well as various information on the schools they attend. The purpose of this project is to aggreegate the data to and showcase obvious trends in school performance. 
+This project is to analyze the district-wide standardized test results using python and pandas to help the school board and mayor make strategic decisions regarding future school budgets and priorities. The dataset will include every student's math and reading scores, as well as various information on the schools they attend. The purpose of this project is to aggregate the data to and showcase obvious trends in school performance. 
 * Inside a PyCitySchools folder, you will find the following:
-  * A jupyter notebook file called school_test_results_analysis.ipynb which is the main script to run for analyzing the district-wide standardized test results.
-  * A "Resources" folder that contains two CSV files used, one is called [schools_complete.csv](./PyCitySchools/Resources/schools_complete.csv). This dataset is composed of five columns: `School ID`,	`school_name`,	`type`,	`size`,	`budget`. The other dataset is called [students_complete.csv](./PyCitySchools/Resources/students_complete.csv). This dataset is composed of seven columns: `Student ID`,	`student_name`,	`gender`, `grade`, `school_name`,	`reading_score`,	`math_score`. I imported and merged these two dataset using pandas library and Jupyter Notebook to analyze test results and draw observable trends based on the data. 
+  * A jupyter notebook file called school_test_results_analysis.ipynb, which is the main script to run for analyzing the district-wide standardized test results.
+  * A "Resources" folder that contains two CSV files used; one is called [schools_complete.csv](./PyCitySchools/Resources/schools_complete.csv). This dataset is composed of five columns: `School ID`,	`school_name`,	`type`,	`size`,	`budget`. The other dataset is called [students_complete.csv](./PyCitySchools/Resources/students_complete.csv). This dataset is composed of seven columns: `Student ID`,	`student_name`,	`gender`, `grade`, `school_name`,	`reading_score`,	`math_score`. I imported and merged these two datasets using the pandas library and Jupyter Notebook to analyze test results and draw observable trends based on the data. 
 
 ## <a name="trends"></a> Observable Trends Based on the Data
 
