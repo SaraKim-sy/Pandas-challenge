@@ -18,14 +18,14 @@
 ## <a name="introduction"></a> Introduction
 This project is to analyze the district-wide standardized test results using python and pandas to help the school board and mayor make strategic decisions regarding future school budgets and priorities. The dataset will include every student's math and reading scores, as well as various information on the schools they attend. The purpose of this project is to aggregate the data to and showcase obvious trends in school performance. 
 * Inside a PyCitySchools folder, you will find the following:
-  * A jupyter notebook file called school_test_results_analysis.ipynb, which is the main script to run for analyzing the district-wide standardized test results.
-  * A "Resources" folder that contains two CSV files used; one is called [schools_complete.csv](./PyCitySchools/Resources/schools_complete.csv). This dataset is composed of five columns: `School ID`,	`school_name`,	`type`,	`size`,	`budget`. The other dataset is called [students_complete.csv](./PyCitySchools/Resources/students_complete.csv). This dataset is composed of seven columns: `Student ID`,	`student_name`,	`gender`, `grade`, `school_name`,	`reading_score`,	`math_score`. I imported and merged these two datasets using the pandas library and Jupyter Notebook to analyze test results and draw observable trends based on the data. 
-* The [final report](#final-report) includes District Summary, School Summary, Top Performing Schools (By % Overall Passing), Bottom Performing Schools (By % Overall Passing), Math Scores by Grade, Reading Scores by Grade, Scores by School Spending, Scores by School Size, and Scores by School Type. 
+  * A jupyter notebook file called [**school_test_results_analysis.ipynb**](./PyCitySchools/school_test_results_analysis.ipynb), which is the main script to run for analyzing the district-wide standardized test results.
+  * A "Resources" folder that contains two CSV files used; one is called [**schools_complete.csv**](./PyCitySchools/Resources/schools_complete.csv). This dataset is composed of five columns: `School ID`,	`school_name`,	`type`,	`size`,	`budget`. The other dataset is called [**students_complete.csv**](./PyCitySchools/Resources/students_complete.csv). This dataset is composed of seven columns: `Student ID`,	`student_name`,	`gender`, `grade`, `school_name`,	`reading_score`,	`math_score`. I imported and merged these two datasets using the pandas library and Jupyter Notebook to analyze test results and draw observable trends based on the data. 
+* The [**final report**](#final-report) includes District Summary, School Summary, Top Performing Schools (By % Overall Passing), Bottom Performing Schools (By % Overall Passing), Math Scores by Grade, Reading Scores by Grade, Scores by School Spending, Scores by School Size, and Scores by School Type. 
 
 ## <a name="trends"></a> Observable Trends Based on the Data
 
 ## <a name="final-report"></a> Final Report
-The notebook displays final report is available in this link: [Final Report](https://nbviewer.jupyter.org/github/SaraKim-sy/Pandas-challenge/blob/main/PyCitySchools/.ipynb_checkpoints/school_test_results_analysis-checkpoint.ipynb) 
+The notebook displays the whole test results analysis is available in this link: [Final Report](https://nbviewer.jupyter.org/github/SaraKim-sy/Pandas-challenge/blob/main/PyCitySchools/.ipynb_checkpoints/school_test_results_analysis-checkpoint.ipynb) 
 
 ### <a name="district-summary"></a> District Summary
 * A high level snapshot (in table form) of the district's key metrics, including:
