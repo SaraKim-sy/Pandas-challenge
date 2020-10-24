@@ -34,7 +34,7 @@ This project is to analyze the district-wide standardized test results using pyt
 4. Observing Math Scores by Grade and Reading Scores by Grade, we can see that math and reading scores between different grades in each school are very close. We can say that students' performance levels are very similar within the same schools, regardless of their grades(9th to 12th). 
 
 ## <a name="final-report"></a> Final Report
-The notebook displays the whole test results analysis is available in this link: [Final Report](https://nbviewer.jupyter.org/github/SaraKim-sy/Pandas-challenge/blob/main/PyCitySchools/.ipynb_checkpoints/school_test_results_analysis-checkpoint.ipynb) 
+The notebook displays the whole test results analysis is available in this link: [Final Report](https://nbviewer.jupyter.org/github/SaraKim-sy/Pandas-challenge/blob/main/PyCitySchools/.ipynb_checkpoints/school_test_results_analysis-checkpoint.ipynb)
 
 ### <a name="district-summary"></a> District Summary
 * A high level snapshot (in table form) of the district's key metrics, including:
