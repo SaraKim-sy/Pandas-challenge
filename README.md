@@ -25,8 +25,8 @@ This project is to analyze the district-wide standardized test results using pyt
 ## <a name="trends"></a> Observable Trends Based on the Data
 1. Seeing the Scores by School Spending, the lowest spending ranges per student (less than $584) schools group has the highest average math scores, average reading scores, percentage of students passed math, percent of students passed reading, and percentage of students passed both. The higher budget spent per student, the lower average math scores, average reading scores, percent of students passed math, the percentage of students passed reading, and the percentage of students passed both.
 
-2. Looking at the Scores by School Size, the small-sized schools' group (less than 1000 students) has the highest average math score and average reading score. Also, the medium-sized schools' group(1000-2000) has the highest percentage of students passed math, percent of students passed reading, and percent of students passed both. However, all the gaps between small and medium schools are not big; all the results were very similar. 
-* However, the large-sized schools' group (between 2000 and 5000 students) has quite lower results than small/medium-sized schools. For example, the percentage of students who passed math in large-sized schools was about 23.6% lower than that of small-sized schools, and the percentage of students who passed reading in large-sized schools was about 31.6% lower than that of small-sized schools. 
+2. Looking at the Scores by School Size, the small-sized schools' group (<1000) has the highest average math score and average reading score. Also, the medium-sized schools' group(1000-2000) has the highest percentage of students passed math, percent of students passed reading, and percent of students passed both. However, all the gaps between small and medium schools are not big; all the results were very similar. 
+* However, the large-sized schools' group(2000-5000) has quite lower results than small/medium-sized schools. For example, the percentage of students who passed math in large-sized schools was about 23.6% lower than that of small-sized schools, and the percentage of students who passed reading in large-sized schools was about 31.6% lower than that of small-sized schools. 
 * From these results, we can assume that students in small/medium-sized schools tend to perform better in tests than those who go to large-sized schools with many students. 
 
 3. From the Scores by School Type, we can notice that charter schools have higher average math scores, average reading scores, percentage of students passed math, percent of students passed reading, and percentage of students passed both than those of district schools. Moreover, according to the Top Performing Schools (By % Overall Passing), all the top 5 performing schools were charter schools. On the other hand, all the bottom 5 performing schools were large district schools with 2000-5000 students.
@@ -46,7 +46,6 @@ The notebook displays the whole test results analysis is available in this link:
   * % Passing Math (The percentage of students that passed math.)
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math and reading.)
-  
 
 ### <a name="school-summary"></a> School Summary
 * An overview table that summarizes key metrics about each school, including:
